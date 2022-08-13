@@ -1,0 +1,126 @@
+.navbar--div{
+  background-color: rgb(37, 37, 37);
+  transition: all 5s ease;
+}
+
+.sideNavbar-div{
+  background-color: rgb(37, 37, 37);
+  transition: all 5s ease;
+}
+.ul--sideNavbar {
+    list-style-type: none;
+  }
+  .ul--sideNavbar > li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .ul--sideNavbar > li:hover {
+    background-color: rgb(29, 28, 28);
+    opacity: 1;
+  }
+  .navImg--icon {
+    width: 35px;
+    margin-left: 2px;
+  }
+  .sideNavbar-div > p {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: azure;
+    background-color: rgb(5, 2, 2);
+  }
+  .popup-div{
+    position: absolute;
+    background-color: rgb(38, 36, 41);    
+    top: 15.134em;
+    left:4.9em ;
+    box-shadow: 1px 1px 4px rgb(38, 36, 41);
+    max-height: 15vh;
+    z-index: 2;
+  }
+  .popup-ul{
+   padding: 10px;
+   list-style-type: none;
+   color: azure;
+  }
+  .popup-li{
+   padding: 10px;
+   margin-left: 2px;
+   margin-right: 3px;
+  }
+  .popup-li:hover{
+   background-color: rgb(20, 20, 20);
+   opacity: 0.5;
+   }
+ 
+   .popup-div1{
+    position: absolute;
+    background-color: rgb(38, 36, 41);
+    top:19.12em;
+    left:4.9em ;
+    box-shadow: 1px 1px 4px rgb(38, 36, 41);
+    max-height: 9vh;
+    z-index: 2;
+  }
+  .popup-ul1{
+   padding: 10px;
+   list-style-type: none;
+   color: azure;
+  }
+  .popup-li1{
+   padding: 10px;
+   margin-left: 2px;
+   margin-right: 3px;
+  }
+  .popup-li1:hover{
+   background-color: rgb(20, 20, 20);
+   opacity: 0.5;
+   }
+   .popup-div2{
+    position: absolute;
+    background-color: rgb(38, 36, 41);
+    top: 27.07em;
+    left:4.9em ;
+    box-shadow: 1px 1px 4px rgb(38, 36, 41);
+    max-height: 15vh;
+    z-index: 2;
+  }
+  .popup-ul2{
+   padding: 10px;
+   list-style-type: none;
+   color: azure;
+  }
+  .popup-li2{
+   padding: 10px;
+   margin-left: 2px;
+   margin-right: 3px;
+  }
+  .popup-li2:hover{
+   background-color: rgb(20, 20, 20);
+   opacity: 0.5;
+   }
+   .popup-div3{
+    position: absolute;
+    background-color: rgb(38, 36, 41);
+    top: 39.15rem;
+    left:4.9em ;
+    box-shadow: 1px 1px 4px rgb(38, 36, 41);
+    max-height: 15vh;
+    z-index: 2;
+  }
+  .popup-ul3{
+   padding: 10px;
+   list-style-type: none;
+   color: azure;
+  }
+  .popup-li3{
+   padding: 10px;
+   margin-left: 2px;
+   margin-right: 3px;
+  }
+  .popup-li3:hover{
+   background-color: rgb(20, 20, 20);
+   opacity: 0.5;
+   }

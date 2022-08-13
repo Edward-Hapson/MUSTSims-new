@@ -1,0 +1,76 @@
+.Exams {
+  background-color: #fff;
+  margin: 2em;
+  box-shadow: 1px 1px 5px rgb(116, 113, 113);
+  margin-top: 1em;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-bottom: 5em;
+}
+
+.up__div {
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 0.5px rgb(139, 132, 132) solid;
+}
+
+.down__div {
+    padding-bottom: 20px;
+}
+.down__div1{
+ padding-bottom: 4em;
+}
+.down__div-p {
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 17px;
+}
+
+table {
+  margin-left: 2.5%;
+  width: 95%;
+  border: 0.5px rgb(139, 132, 132) solid;
+  border-collapse: collapse;
+}
+
+tr {
+  /* border: 0.5px rgb(139, 132, 132) solid; */
+}
+
+th {
+  padding: 5px;
+  border: 0.5px rgb(139, 132, 132) solid;
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+  border: 0.5px rgb(139, 132, 132) solid;
+  border-collapse: collapse;
+}
+.td__code {
+  color: rgb(139, 139, 236);
+}
+.bottom__td {
+  position: relative;
+  left: 87.5%;
+  font-weight: bold;
+}
+.bottom__td1 {
+  position: relative;
+  left: 5.6em;
+  font-weight: bold;
+}
+.summaryDiv{
+
+}
+.summaryDiv p{
+  font-weight: bold;
+  margin-left: 2em;
+}
+.summaryDiv > table{
+    width: 50%;
+   
+}
+.sumTd{
+    font-weight: bold;
+}

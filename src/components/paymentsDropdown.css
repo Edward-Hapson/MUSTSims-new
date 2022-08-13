@@ -1,0 +1,20 @@
+.div-dropdown{
+    background-color: rgb(14, 13, 13);
+    margin: 0;
+    padding: 0;
+}
+.div-dropdown__ul{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: aliceblue;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 5px;
+    
+}
+.div-dropdown__ul > li{    
+    padding: 10px;
+}
+.div-dropdown__ul > li:hover{
+    background-color: rgb(37, 37, 37);
+}

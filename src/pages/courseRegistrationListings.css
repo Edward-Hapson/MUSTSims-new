@@ -1,0 +1,25 @@
+.courseRegistrationListings ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:.2px rgb(129, 128, 128) solid ;
+    padding: 7px;
+}
+
+.courseRegistrationListings ul li:nth-child(1){
+    position: relative;
+    left: 1.5em;
+}
+.courseRegistrationListings ul li:nth-child(2){
+    position: relative;
+    right: 7.6em;
+}
+.courseRegistrationListings ul li:nth-child(3){
+    position: relative;
+    right: 17em;
+}
+.courseRegistrationListings ul li:nth-child(5){
+    position: relative;
+    right: 10em;
+}

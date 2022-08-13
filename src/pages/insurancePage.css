@@ -1,0 +1,81 @@
+.insurancePage {
+  background-color: rgb(250, 252, 255);
+  margin: 20px 20px;
+  box-shadow: 1px 1px 5px rgb(110, 110, 110);
+}
+.upper__div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px black solid;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.upper__div > p {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.upper__div > button {
+  background-color: orange;
+  border: none;
+  color: white;
+  margin-bottom: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+.insurancePage p:nth-child(2) {
+  color: red;
+  font-weight: bold;
+  padding: 15px;
+  /* border-top: 2px blue solid;
+    max-width: 60%; */
+}
+/* .lower__div ul {
+  display: flex;
+  list-style-type: none;
+  border-bottom: 0.5px black solid;
+} */
+.lower__div_ul1 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-bottom: 0.5px black solid;
+  
+}
+.lower__div_ul2 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-bottom: 0.5px black solid;
+}
+.lower__div_ul3{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border-bottom: 0.5px black solid;
+}
+.lower__div_ul4 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border: none;
+}
+.lower__div_ul1 li{
+  padding: 10px;
+}
+.lower__div_ul2 li p:nth-child(2){
+  margin-left: 7em;
+}
+.lower__div_ul2 li p:nth-child(3){
+  margin-right: 3em;
+}
+.lower__div_ul2 li{
+  padding: 10px;
+}
+.lower__div_ul3 li{
+  padding: 10px;
+}
+.lower__div_ul4 li{
+  padding: 10px;
+}
+

@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.general--div {
+    background-color: rgb(194, 119, 7);
+  }
+  
+.lowerGeneral--div{
+ display: flex;
+ /* grid-template-columns: 22% 78%; */
+}

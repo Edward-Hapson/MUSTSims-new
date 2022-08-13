@@ -1,0 +1,65 @@
+.courseRegistration{
+ margin: 4em 2em 4em 2em;
+
+}
+.upperr__div{
+ background-color: rgb(169, 202, 221);
+ margin-top: -3em;
+}
+.upperr__div p{
+    padding: 20px;
+    color: rgb(61, 61, 88);
+    border: .25px rgb(133, 133, 201) solid;
+    border-radius:5px ;
+   }
+.lowerr__div{
+ background-color: #fff;
+ box-shadow: 1px 1px 5px rgb(110, 110, 110);
+ margin-top: 1.5em;
+ padding-bottom: 3em;
+}
+.Ul__div__ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: .2px rgb(109, 107, 107) solid;
+}
+.lowerr__div p:nth-child(1){
+    font-weight: bold;
+    padding: 10px;
+}
+.lowerr__div p:nth-child(2){
+    color: red;
+    border-bottom: 1px red solid;
+    padding: 10px;
+}
+.Ul__div__ul__li:nth-child(1){
+  position: relative;
+  font-weight: bold;
+  padding: 13px 10px 10px 10px;
+  left: 1em;
+  }
+  .Ul__div__ul__li:nth-child(2){
+    position: relative;
+    font-weight: bold;
+    padding: 13px 10px 10px 10px;
+    right: 10em;
+  }
+  .Ul__div__ul__li:nth-child(3){
+    position: relative;
+    font-weight: bold;
+    padding: 13px 10px 10px 10px;
+    right: 20.4em;
+  }
+  .Ul__div__ul__li:nth-child(4){
+    position: relative;
+    font-weight: bold;
+    padding: 13px 10px 10px 10px;
+    left: 20px;
+  }
+  .Ul__div__ul__li:nth-child(5){
+    position: relative;
+    font-weight: bold;
+    padding: 13px 10px 10px 10px;
+    right: 9.4em;
+  }
