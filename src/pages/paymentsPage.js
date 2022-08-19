@@ -18,7 +18,7 @@ export default function PaymentsPage() {
             <p className="paraUp">Fee Structure Invoices</p>
             <ul className="firstUl">
               <li>Student Name:<span className="redStar">{"*"}</span></li>
-              <li>20100123090024-HAPSON, Edward</li><span className="studentSpan">STUDENT</span>
+              <li>20100123090024-HAPSON, Edward</li>
               <li>Academic Year:</li>
               <li>2021/2022</li>
             </ul>

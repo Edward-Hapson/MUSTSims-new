@@ -1,7 +1,14 @@
 .navbar--div{
+  
   background-color: rgb(37, 37, 37);
   transition: all 5s ease;
 }
+
+@media screen and (max-width: 500px) {
+  .navbar--div{
+    display: none;
+  }
+} 
 
 .sideNavbar-div{
   background-color: rgb(37, 37, 37);

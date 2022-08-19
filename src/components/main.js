@@ -51,6 +51,7 @@ export default function Main() {
       <p className="p">Active Academic Year : 2021/2022 - Semester II</p>
       <hr />
       <Routes>
+        <Route path="/" element={<DashboardPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/message" element={<MessagePage />} />

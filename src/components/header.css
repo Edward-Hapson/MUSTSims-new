@@ -1,14 +1,15 @@
 .header--div{
     background-color: rgb(122, 138, 211);
     display: flex;
+    justify-content: space-between;
     border-bottom: 4px rgb(10, 32, 32) solid;
 }
 .mustlogo {
-    width: 10em; 
-    margin-left: 1em;
+    width: 10em;
+    margin-left: 1em;    
     margin-bottom: 2px;
   }
-  .header--words {
+  .header--words { 
     color: whitesmoke;
     margin-left: 5px;
     margin-right: 10em;
@@ -19,16 +20,27 @@
   }
   
   .header--words > p {
-    font-size: 30px;
+    font-size: 2rem;
     margin-left: 10px;
   }
   
   .listIcon--btn {
     padding: 0px;
     margin: 10px;
+    margin-right: 4em;
     background-color:  rgb(122, 138, 211);
     border: 1px  rgb(122, 138, 211);
   }
   .listIcon--btn > img {
     width: 30px;
+  }
+
+  @media (max-width: 800px){
+    .mustlogo {
+      width: 10em;
+      /* margin-right: 7em; */
+    }
+    .header--words{
+      display: none;
+    }
   }
